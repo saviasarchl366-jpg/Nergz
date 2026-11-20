@@ -1,0 +1,12 @@
+name = "nergz-website"
+main = "src/worker.js"
+compatibility_date = "2026-11-21"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nergz-db"
+database_id = "PUT_YOUR_D1_DATABASE_ID_HERE"
